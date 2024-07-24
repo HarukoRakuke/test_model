@@ -43,7 +43,7 @@ function initThree() {
 
   const loader = new GLTFLoader();
   loader.load(
-    '/models/printer.glb',
+    'models/printer.glb',
     (gltf) => {
       model = gltf.scene;
       model.position.set(0, 0, 0);
