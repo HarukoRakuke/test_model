@@ -67,7 +67,6 @@ function initThree() {
 
   function animate(controls) {
     requestAnimationFrame(() => animate(controls));
-    model.rotation.y += 0.01;
     renderer.render(scene, camera);
   }
 }
