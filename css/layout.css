@@ -7,7 +7,7 @@ body {
 }
 html {
   background-color: darkgrey;
-  padding: 2.5vw;
+  padding: 2.5vw 10vw;
 }
 
 h1 {
@@ -22,4 +22,92 @@ h1 {
   border-radius: 0.5vw;
   aspect-ratio: 1.5;
   background-color: lightgray;
+  position: relative;
+}
+
+.popup-info {
+  position: absolute;
+  width: 35%;
+  height: 96%;
+  top: 2%;
+  --i: 2%;
+  backdrop-filter: blur(10px);
+  padding: 2vw;
+  right: 2%;
+  background-color: rgba(250, 250, 250, 0.7);
+  animation: from-top 1s forwards;
+}
+.popup-info > h1 {
+  margin-top: 6vw;
+  font-size: 8vw;
+  line-height: 5vw;
+  margin-bottom: 4vw;
+}
+.popup-info > h2 {
+  margin-bottom: 1vw;
+  font-size: 2vw;
+  text-transform: uppercase;
+  line-height: 2.3vw;
+}
+.popup-info > p {
+  font-size: 1vw;
+}
+.popup-info > * {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-3d > .button,
+.scrollButtonForward,
+.scrollButtonBack {
+  position: absolute;
+  background-color: white;
+  padding: 0.5vw 1vw;
+  font-family: Arial, Helvetica, sans-serif;
+  bottom: 2%;
+  left: 2%;
+}
+
+@keyframes from-top {
+  0% {
+    top: -10%;
+    opacity: 0;
+  }
+  100% {
+    top: var(--i);
+    opacity: 1;
+  }
+}
+
+.fullScreenMode {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  aspect-ratio: auto;
+}
+
+.scrollButtonForward {
+  left: auto;
+  right: 3%;
+  background-image: url('../img/button.svg');
+  width: 5%;
+  bottom: 3%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  aspect-ratio: 1;
+}
+.scrollButtonBack {
+  left: auto;
+  right: 10%;
+  bottom: 3%;
+  background-image: url('../img/button.svg');
+  rotate: 180deg;
+  width: 5%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  aspect-ratio: 1;
 }

@@ -15,7 +15,12 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"pCube3.001"
+			"name":"pCube3.001",
+			"translation":[
+				0.0022589985746890306,
+				-1.2100659608840942,
+				2.858722686767578
+			]
 		},
 		{
 			"children":[
@@ -93,7 +98,7 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":6264,
+			"count":6269,
 			"max":[
 				4.278629302978516,
 				3.7154669761657715,
@@ -109,13 +114,13 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":6264,
+			"count":6269,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":6264,
+			"count":6269,
 			"type":"VEC2"
 		},
 		{
@@ -128,26 +133,26 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":75168,
+			"byteLength":75228,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":75168,
-			"byteOffset":75168,
+			"byteLength":75228,
+			"byteOffset":75228,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":50112,
-			"byteOffset":150336,
+			"byteLength":50152,
+			"byteOffset":150456,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":48000,
-			"byteOffset":200448,
+			"byteOffset":200608,
 			"target":34963
 		}
 	],
@@ -159,7 +164,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":248448,
+			"byteLength":248608,
 			"uri":"display.bin"
 		}
 	]
