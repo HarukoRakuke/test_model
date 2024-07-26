@@ -42,13 +42,13 @@ h1 {
   font-size: 8vw;
   line-height: 5vw;
   margin-bottom: 4vw;
+  max-width: 800px;
 }
 .popup-info > h2 {
   margin-bottom: 1vw;
   font-size: 2vw;
   text-transform: uppercase;
   line-height: 2.3vw;
-  max-width: 800px;
 }
 .popup-info > p {
   font-size: 1vw;
